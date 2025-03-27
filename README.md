@@ -2,9 +2,9 @@
 
 This repository contains training scripts for various models on different datasets. The models are trained using PyTorch and support distributed training using `torch.distributed`.
 
-## Training Scripts
+## Training and Run Scripts
 
-### sEMG Training
+### sEMG
 
 The `train_sEMG.py` script is used for training models on sEMG datasets.
 
@@ -13,7 +13,7 @@ The `train_sEMG.py` script is used for training models on sEMG datasets.
 python train_sEMG.py
 ```
 
-### Image Training
+### Image
 
 The `train_pic.py` script is used for training models on image datasets.
 
@@ -22,7 +22,7 @@ The `train_pic.py` script is used for training models on image datasets.
 python train_pic.py
 ```
 
-### MSA Training
+### MSA
 
 The `train_msa.py` script is used for training models on MSA datasets.
 
@@ -31,7 +31,7 @@ The `train_msa.py` script is used for training models on MSA datasets.
 python train_msa.py
 ```
 
-### MRI Training
+### MRI
 
 The `train_mri.py` script is used for training models on MRI datasets.
 
@@ -56,4 +56,4 @@ cd Digital_Immune
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the GPL-3.0 License.
