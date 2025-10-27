@@ -1,4 +1,4 @@
-# Digital Immune
+# MID
 
 This repository contains training scripts for various models on different datasets. The models are trained using PyTorch and support distributed training using `torch.distributed`.
 
@@ -50,8 +50,8 @@ python train_mri.py
 
 Clone the repository:
 ```bash
-git clone https://github.com/IRMVLab/Digital_Immune.git
-cd Digital_Immune
+git clone https://github.com/IRMVLab/MID.git
+cd MID
 ```
 
 ## License
